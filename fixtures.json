@@ -1,0 +1,550 @@
+[
+    {
+        "model": "api.category",
+        "pk": 1,
+        "fields": {
+            "name": "Недвижимость"
+        }
+    },
+    {
+        "model": "api.category",
+        "pk": 2,
+        "fields": {
+            "name": "Транспорт"
+        }
+    },
+    {
+        "model": "api.category",
+        "pk": 3,
+        "fields": {
+            "name": "Животные"
+        }
+    },
+    {
+        "model": "api.category",
+        "pk": 4,
+        "fields": {
+            "name": "Одежда и обувь"
+        }
+    },
+    {
+        "model": "api.category",
+        "pk": 5,
+        "fields": {
+            "name": "Другое"
+        }
+    },
+    {
+        "model": "api.category",
+        "pk": 6,
+        "fields": {
+            "name": "Электроника"
+        }
+    },
+    {
+        "model": "api.category",
+        "pk": 7,
+        "fields": {
+            "name": "Бытовая техника"
+        }
+    },
+    {
+        "model": "api.category",
+        "pk": 8,
+        "fields": {
+            "name": "Еда и напитки"
+        }
+    },
+    {
+        "model": "api.city",
+        "pk": 1,
+        "fields": {
+            "name": "Славославль"
+        }
+    },
+    {
+        "model": "api.city",
+        "pk": 2,
+        "fields": {
+            "name": "Гравити Фоллз"
+        }
+    },
+    {
+        "model": "api.city",
+        "pk": 3,
+        "fields": {
+            "name": "Чернозёмск"
+        }
+    },
+    {
+        "model": "api.city",
+        "pk": 4,
+        "fields": {
+            "name": "Скипидарск"
+        }
+    },
+    {
+        "model": "api.city",
+        "pk": 5,
+        "fields": {
+            "name": "Нью-Васюки"
+        }
+    },
+    {
+        "model": "api.city",
+        "pk": 6,
+        "fields": {
+            "name": "Дивнобеломорск"
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 1,
+        "fields": {
+            "created": "2023-08-15T14:01:00.000Z",
+            "title": "Продам гараж",
+            "description": "3 на 6, овощная и смотровая ямы.",
+            "city": 1,
+            "category": 1,
+            "views": 2
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 2,
+        "fields": {
+            "created": "2023-08-16T14:02:00.000Z",
+            "title": "Ковёр-самолет",
+            "description": "Не на ходу -- изъеден молью",
+            "city": 1,
+            "category": 2,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 3,
+        "fields": {
+            "created": "2023-08-17T14:03:00.000Z",
+            "title": "Кот учёный",
+            "description": "Продам кота. Голосистый. Ходит только налево.",
+            "city": 1,
+            "category": 3,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 4,
+        "fields": {
+            "created": "2023-08-18T14:04:00.000Z",
+            "title": "Сапоги-скороходы",
+            "description": "продам или обменяю",
+            "city": 1,
+            "category": 4,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 5,
+        "fields": {
+            "created": "2023-08-19T14:05:00.000Z",
+            "title": "Часы без стрелок",
+            "description": "В наличии несколько моделей",
+            "city": 1,
+            "category": 6,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 6,
+        "fields": {
+            "created": "2023-08-20T14:06:00.000Z",
+            "title": "Фен",
+            "description": "Дует хорошо, горячо.",
+            "city": 1,
+            "category": 7,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 7,
+        "fields": {
+            "created": "2023-08-21T14:07:00.000Z",
+            "title": "Блок \"Турбо\"",
+            "description": "Куплен в 1996 году. Не вскрыт. Дорого",
+            "city": 4,
+            "category": 8,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 8,
+        "fields": {
+            "created": "2023-08-22T14:08:00.000Z",
+            "title": "Хижина чудес",
+            "description": "Продается. Досталась в наследство от дядюшки",
+            "city": 2,
+            "category": 1,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 9,
+        "fields": {
+            "created": "2023-08-23T14:09:00.000Z",
+            "title": "Фольксваген Т1",
+            "description": "Не бит, не крашен",
+            "city": 2,
+            "category": 2,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 10,
+        "fields": {
+            "created": "2023-08-24T14:10:00.000Z",
+            "title": "Футболка",
+            "description": "Одна штука",
+            "city": 2,
+            "category": 4,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 11,
+        "fields": {
+            "created": "2023-08-25T14:11:00.000Z",
+            "title": "Артефакты из \"Хижины чудес\"",
+            "description": "Много, разные",
+            "city": 2,
+            "category": 5,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 12,
+        "fields": {
+            "created": "2023-08-26T14:12:00.000Z",
+            "title": "Ведро электронов",
+            "description": "Очень дорого",
+            "city": 2,
+            "category": 6,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 13,
+        "fields": {
+            "created": "2023-08-27T14:13:00.000Z",
+            "title": "СВЧ-печь",
+            "description": "Выиграна в \"Поле чудес\"",
+            "city": 2,
+            "category": 7,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 14,
+        "fields": {
+            "created": "2023-08-28T14:14:00.000Z",
+            "title": "Китекат",
+            "description": "Самовывоз. От тонны",
+            "city": 2,
+            "category": 8,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 15,
+        "fields": {
+            "created": "2023-08-29T14:15:00.000Z",
+            "title": "Избушка на курьих ножках",
+            "description": "В заповедном лесу",
+            "city": 3,
+            "category": 1,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 16,
+        "fields": {
+            "created": "2023-08-30T14:16:00.000Z",
+            "title": "Ступа",
+            "description": "Некомплект (утеряна метла)",
+            "city": 3,
+            "category": 2,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 17,
+        "fields": {
+            "created": "2023-08-31T14:17:00.000Z",
+            "title": "Дракон ручной",
+            "description": "Как большой, только маленький",
+            "city": 3,
+            "category": 3,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 18,
+        "fields": {
+            "created": "2023-09-01T14:18:00.000Z",
+            "title": "Кольчуга",
+            "description": "Осталась от Ильи Муромца. А нам куда? Богатыри не мы (да и, скорее всего, не вы)",
+            "city": 3,
+            "category": 4,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 19,
+        "fields": {
+            "created": "2023-09-02T14:19:00.000Z",
+            "title": "Это другое",
+            "description": "Вы не понимаете",
+            "city": 3,
+            "category": 5,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 20,
+        "fields": {
+            "created": "2023-09-03T14:20:00.000Z",
+            "title": "Электронную электронику продам",
+            "description": "Много",
+            "city": 3,
+            "category": 6,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 21,
+        "fields": {
+            "created": "2023-09-04T14:21:00.000Z",
+            "title": "Набор для чистки печи",
+            "description": "12 предметов",
+            "city": 3,
+            "category": 7,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 22,
+        "fields": {
+            "created": "2023-09-05T14:22:00.000Z",
+            "title": "Меняю еду на напитки",
+            "description": "Можно напитки на еду",
+            "city": 3,
+            "category": 8,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 23,
+        "fields": {
+            "created": "2023-09-06T14:23:00.000Z",
+            "title": "Продам хату",
+            "description": "С краю",
+            "city": 4,
+            "category": 1,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 24,
+        "fields": {
+            "created": "2023-09-07T14:24:00.000Z",
+            "title": "Продам пятое колесо от телеги",
+            "description": "б/у",
+            "city": 4,
+            "category": 2,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 25,
+        "fields": {
+            "created": "2023-09-08T14:25:00.000Z",
+            "title": "Аквариум продам",
+            "description": "Можно с рыбками, можно без рыбок",
+            "city": 4,
+            "category": 3,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 26,
+        "fields": {
+            "created": "2023-09-09T14:26:00.000Z",
+            "title": "Меняю одежду на обувь",
+            "description": "И наоборот",
+            "city": 4,
+            "category": 4,
+            "views": 4
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 27,
+        "fields": {
+            "created": "2023-09-10T14:27:00.000Z",
+            "title": "ПАКЛЯ",
+            "description": "65-65-65",
+            "city": 4,
+            "category": 5,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 28,
+        "fields": {
+            "created": "2023-09-11T14:28:00.000Z",
+            "title": "Продам бозон Хиггса",
+            "description": "Самовывоз из Швейцарии",
+            "city": 4,
+            "category": 6,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 29,
+        "fields": {
+            "created": "2023-09-12T14:29:00.000Z",
+            "title": "Наборы \"Собери сам\"",
+            "description": "В наличии наборы для сборки телевизоров, радио и кассетных магнитофонов",
+            "city": 4,
+            "category": 7,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 30,
+        "fields": {
+            "created": "2023-09-13T14:30:00.000Z",
+            "title": "Огрызок яблока",
+            "description": "Меняю на услуги по покраске забора",
+            "city": 4,
+            "category": 8,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 31,
+        "fields": {
+            "created": "2023-09-14T14:31:00.000Z",
+            "title": "Ключ от квартиры, где деньги лежат",
+            "description": "Найден вчера",
+            "city": 5,
+            "category": 1,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 32,
+        "fields": {
+            "created": "2023-09-15T14:32:00.000Z",
+            "title": "Автомобиль \"Антилопа гну\"",
+            "description": "Эксклюзивная модель",
+            "city": 5,
+            "category": 2,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 33,
+        "fields": {
+            "created": "2023-09-16T14:33:00.000Z",
+            "title": "Шахматная доска",
+            "description": "Фигуры не все",
+            "city": 5,
+            "category": 5,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 34,
+        "fields": {
+            "created": "2023-09-17T14:34:00.000Z",
+            "title": "Дача у моря",
+            "description": "1-я линия",
+            "city": 6,
+            "category": 1,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 35,
+        "fields": {
+            "created": "2023-09-18T14:35:00.000Z",
+            "title": "Китовый ус",
+            "description": "Знаю где лежит",
+            "city": 6,
+            "category": 3,
+            "views": 0
+        }
+    },
+    {
+        "model": "api.advert",
+        "pk": 36,
+        "fields": {
+            "created": "2023-09-19T14:36:00.000Z",
+            "title": "Нофелет",
+            "description": "2-12-85-0А",
+            "city": 6,
+            "category": 6,
+            "views": 4
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$QhOLlIgxHONcWgxmnUOBdS$A0QjWIFlgrqbTTAbPpAUd+qdBuXXDnHhBxAlWIvIKlw=",
+            "last_login": "2023-09-28T09:29:01.425Z",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2023-09-27T14:41:39.412Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    }
+]
