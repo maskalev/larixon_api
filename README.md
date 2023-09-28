@@ -25,7 +25,7 @@ Advert - объявление, поля: created (дата создания), ti
 
 1. Клонировать проект: 
    
-   `git cline git@github.com:maskalev/larixon_api.git`
+   `git clоne git@github.com:maskalev/larixon_api.git`
 
 2. Перейти в директорию с проектом: 
    
@@ -49,7 +49,7 @@ Advert - объявление, поля: created (дата создания), ti
 
     `sudo docker compose exec -T web python3 manage.py loaddata fixtures.json`
 
-7. Приложение доступно по адресу `localhost:8000`
+7. Приложение доступно по адресу `http://localhost:8000`
 
 ### Докуметация
 Доступна на `http://localhost:8000/swagger/` и `http://localhost:8000/redoc/`.
@@ -71,7 +71,7 @@ Advert - объявление, поля: created (дата создания), ti
 
 ### Тесты
 
-Для запуска тестов выполнить команду `pytest .`.
+Для запуска тестов выполнить команду `sudo docker compose exec -T web pytest .`.
 
 ### Что дальше?
 
