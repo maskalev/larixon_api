@@ -7,8 +7,7 @@ from .serializers import AdvertSerializer
 
 
 class AdvertViewSet(viewsets.ReadOnlyModelViewSet):
-    # queryset = Advert.objects.prefetch_related("city", "category")
-    queryset = Advert.objects.all().order_by("-created")
+    queryset = Advert.objects.prefetch_related("city", "category").order_by("-created")
     serializer_class = AdvertSerializer
 
     def retrieve(self, request, pk=None):
